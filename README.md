@@ -1,12 +1,95 @@
-# React + Vite
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a id="readme-top"></a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#Installation Set up">Installation Set up</a></li>
+      </ul>
+    </li>
+    <li><a href="#features">Features</a></li>
+  </ol>
+</details>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Expanding the ESLint configuration
+The Note App with effective with real time colloboration feature
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+### Installation Set up
+
+_Below are the instructions to run the complete project._
+
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/roshidhmohammed/NOTES_APP
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Create a .env file at the root of your project.
+
+5. Set up the `.env` file
+   ```js
+   ```
+
+6. Run command below to start the project
+   ```sh
+     npm run dev
+    ```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+<!-- features -->
+## features
+
+- [x] User Authentication and authorization
+- [x] Create a new collaborative note with enhanced text editor features
+- [x] UUsers can share their notes with other users and assign either editor or viewer access
+- [x] UUsers can view all notes, including those shared with them
+- [x] Both the owner and invited editors can edit the note, if the owner grants edit permission
+- [x] Owners and users with editor permission can delete the note
+- [x] Logout functionality
+    
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
