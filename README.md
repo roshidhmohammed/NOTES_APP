@@ -11,10 +11,8 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#Installation Set up">Installation Set up</a></li>
-      </ul>
     </li>
+    <li><a href="#Installation Set up">Installation Set up</a></li>
     <li><a href="#features">Features</a></li>
   </ol>
 </details>
