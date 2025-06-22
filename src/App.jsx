@@ -5,7 +5,7 @@ import Register from "./components/Register";
 import Alert from "./components/common/Alert";
 import Home from "./components/Home";
 import ProtectedRoute from "./ProtectedRoute";
-import AppLayout from "./components/AppLayout";
+import Layout from "./components/Layout";
 import NewNote from "./components/NewNote";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route element={<ProtectedRoute />}>
-            <Route element={<AppLayout />}>
+            <Route element={<Layout />}>
               <Route index path="/home" element={<Home />} />
               <Route index path="/note/:id" element={<NewNote />} />
             </Route>
